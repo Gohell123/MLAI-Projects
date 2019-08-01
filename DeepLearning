@@ -1,0 +1,37 @@
+Data Link : https://s3.us-east-2.amazonaws.com/datafaculty/final_case/final_data.zip
+
+This data set contains more than 500 high resolution images of common world objects. The images in this dataset belong to the following classes:
+1. Acoustic guitar
+2. Airliner
+3. Arabian camel
+4. Chihuahua
+5. Church
+6. German Shepherd
+7. Laptop
+8. Tabby
+9. Violin
+
+Your task is to use a pre-trained model such as VGG16, to arrange these images in new folders, where images of one class are in one folder.
+
+Submission Requirements
+
+1. The code used to arrange data files
+2. A csv file with a column on the folder name for each image (based on the class inferred from the model)
+
+file        folder
+00001.jpg   acoustic
+000045.jpg  laptop
+
+3. Make sure you maintain the following folder names for the classes:
+
+Category            Folder Name
+Acoustic Guitar     acoustic
+Airliner            airliner
+Arabian camel       arabian
+Chihuahua           chihuahua
+Church              church
+German Shepherd     german
+Laptop              laptop
+Tabby               tabby
+Violin              violin
+
