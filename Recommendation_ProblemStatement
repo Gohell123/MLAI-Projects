@@ -1,0 +1,6 @@
+Business Case: A retail company has been struggling in the recent past, trying to optimise product placement in one of its largest stores in the city. On a close inspection, the management found out that, part of the problem is the fact, that similar kind of products are placed in shelves far apart from each other. Manually figuring out which products are similar, will be a very time-consuming task. The store manager wants a solution in which manual intervention is minimal. The store manager checked with his IT team and the IT team could extract data on the current product placement in the store. His IT team can fetch data on:
+(i) A text description of each product
+(ii) Current Aisle Id of each product
+(iii) Current Department Id of each product
+
+The IT team could extract a sample of data. This sample has been made available in the file named “prods.csv”. Can you come up with a solution that is data driven? An ideal solution will help in finding out for a given product what are top 5 most similar ones and which Aisle and Department they belong to.
